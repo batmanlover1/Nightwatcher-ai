@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background: #030507;
+    color: #d8e7ff;
+    font-family: monospace;
+}
+
+.container {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #607b9a;
+    letter-spacing: 3px;
+}
+
+.core {
+    width: 280px;
+    height: 280px;
+    border: 3px solid #18334d;
+    border-radius: 50%;
+    margin: 50px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow:
+        0 0 20px #18334d,
+        0 0 50px #0d2235;
+}
+
+.core-dot {
+    width: 35px;
+    height: 35px;
+    background: #d8e7ff;
+    border-radius: 50%;
+
+    box-shadow:
+        0 0 15px #d8e7ff,
+        0 0 40px #547fa8;
+}
+
+#status {
+    color: #78a7d4;
+    font-weight: bold;
+}
+
+#conversation {
+    min-height: 120px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #18334d;
+    text-align: left;
+}
+
+.computer {
+    color: #d8e7ff;
+}
+
+.user {
+    color: #78a7d4;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 15px;
+
+    background: #080d13;
+    color: white;
+
+    border: 1px solid #294863;
+    font-family: monospace;
+}
+
+button {
+    padding: 15px 25px;
+
+    background: #122438;
+    color: #d8e7ff;
+
+    border: 1px solid #416684;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b344d;
+}
